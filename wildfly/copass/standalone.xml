@@ -420,7 +420,7 @@
         <subsystem xmlns="urn:jboss:domain:jsf:1.1"/>
         <subsystem xmlns="urn:jboss:domain:mail:3.0">
             <mail-session name="default" jndi-name="java:jboss/mail/Default">
-                <smtp-server outbound-socket-binding-ref="mail-smtp" ssl="true" username="bug@apsisinfo.com.br" password="bugzillaapsis"/>
+                <smtp-server outbound-socket-binding-ref="mail-smtp" ssl="true" username="bug@apsisinfo.com.br" password="[Senha do Bugzilla]"/>
             </mail-session>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:naming:2.0">
